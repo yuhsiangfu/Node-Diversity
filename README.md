@@ -12,7 +12,7 @@ The url of the paper is https://doi.org/10.1016/j.physa.2015.03.042.
 ## Setting of the execution environment
 We used Python 3.4, NetworkX 1.9.1, Numpy 1.9.2 and Scipy 0.15.1 programming languages and packages. For the IDE of Python, we recommend the PyCharm community version.
 
-## Brief step by step of code usage
+## Brief code usage
 TBD
 
 ## Notification
