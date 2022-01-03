@@ -10,9 +10,9 @@ Identifying the most influential individuals spreading ideas, information, or in
 The url of the paper is https://doi.org/10.1016/j.physa.2015.03.042.
 
 ## Setting of the execution environment
-We used Python 3.4, NetworkX 1.9.1, Numpy 1.9.2 and Scipy 0.15.1 programming languages and packages. For the IDE of Python, we recommend the PyCharm community version.
+In this paper, we used Python 3.4, NetworkX 1.9.1, Numpy 1.9.2 and Scipy 0.15.1 for programming. Also, for the IDE of Python, we recommend the PyCharm community version.
 
-However, the Python 3.4 is not not compatible for `Conda` to create the `env` environment. Therefore, you coulde add the mirror channel to `Conda` by using `conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/`. Then, use `conda create -n Python34 python=3.4 anaconda` to create the `Conda env` of Python3.4.
+However, the Python 3.4 is no longer compatible for `Conda` to create the `env` environment. Therefore, you coulde add the mirror channel to `Conda` by using `conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/`. Then, you could use `conda create -n Python34 python=3.4 anaconda` to create the `Conda env` of Python3.4.
 
 ## Brief code usage
 1. TBD
@@ -26,4 +26,4 @@ However, the Python 3.4 is not not compatible for `Conda` to create the `env` en
 4. Any questions please contact yuhisnag.fu@gmail.com.
 
 Best regards,
-Yu-Hsiang Fu 20220102 updated.
+Yu-Hsiang Fu 20220103 updated.
