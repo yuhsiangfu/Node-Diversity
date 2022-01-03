@@ -14,10 +14,10 @@ In this paper, we used Python 3.4, NetworkX 1.9.1, Numpy 1.9.2 and Scipy 0.15.1 
 
 However, the Python 3.4 is no longer compatible for `Conda` to create the `env` environment. Therefore, you coulde add the mirror channel to `Conda` by using `conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/`. Then, you could use `conda create -n Python34 python=3.4 anaconda` to create the `Conda env` of Python3.4.
 
-## Brief code usage
-1. TBD
-2. TBD
-3. TBD
+## Simple code usage
+1. use `measure_node_attribute.py` to create `file\*.pickle`, e.g., `file\polblogs_gcc-attr.pickle`
+2. use `network_attribute_scatter.py` to draw scatters of nodes' attributes, e.g., `image\network_attribute_scatter_net=polblogs_gcc.png`
+3. use `experiment1.py` to run SIR simulations and draw plots, e.g., `network_propagation,net=polblogs_gcc,round=1000,t=50,topk=1,b=0.02,r=1.png` and `propagation_result,net=polblogs_gcc,round=1000,t=50,topk=1,b=0.02,r=1.txt`
 
 ## Notification
 1. You are free to use the codes for educational purposes.
